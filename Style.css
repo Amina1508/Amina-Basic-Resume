@@ -1,0 +1,207 @@
+/* 
+Name: Amina Basic
+Course: CS412
+Assignment: Project 2-CSS
+Due date: 05/11/2021
+*/
+
+
+body{
+
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.Profileimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2.Biography{
+  color:black;
+  font-size: 27pt;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-indent: 17px;
+  text-align:center;
+  background-color: lavenderblush;
+  height: 45px;
+}
+
+blockquote {
+    
+text-align: center;
+   background-color:lavender;
+   color:black;
+   
+   font-style:italic;
+   font-family: 'Times New Roman', Times, serif;
+   border-top: 1px solid #665544;
+   border-bottom: 1px solid #665544; 
+   border-left: 1px solid #665544;
+   border-right: 1px solid #665544;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 25px;
+   padding-right: 25px;
+   font-size: 105%;
+   margin-left: 400px;
+   margin-right: 400px;
+
+}
+
+figure{
+ background-color:rgb(60, 4, 82);
+ color: aliceblue;
+ text-align: center;
+ font-family: 'Times New Roman', Times, serif;
+ margin-left: 550px;
+ margin-right: 550px;
+ border-top: 3px solid black;
+ border-bottom: 3px solid black;
+ border-right: 3px solid black;
+ border-left: 3px solid black;
+
+
+}
+
+h2.Edu {
+     background-color:lavenderblush;
+     text-align: left;
+     font-family:'Times New Roman', Times, serif;
+     margin-left: 20px;
+     margin-right: 1250px;
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+
+
+
+}
+p{
+  background-color: lavender;
+  margin-left: 10px;
+  margin-right: 10px;
+ 
+}
+
+img.Profileimg{
+    border-top: 10px solid lavender;
+    border-bottom: 10px solid lavender;
+    border-left: 10px solid lavender;
+    border-right: 10px solid lavender;
+    width: 300px;
+    height: 400px;
+
+}
+
+div {
+    height: 100px;
+    width: 100%x;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: lavender;
+}
+
+p.Biography {
+    height: 100%;
+    width: 100%;
+    background-color: thistle;
+}
+
+h2.Class{
+    background-color:lavenderblush;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-right: 1250px;
+    
+}
+
+h2.Myskills{
+    background-color:lavenderblush;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-right: 1250px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+h2.Phone{
+    background-color:lavenderblush;
+     text-align: left;
+     font-family:'Times New Roman', Times, serif;
+     margin-left: 20px;
+     margin-right: 1250px;
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+}
+
+ol{
+    list-style-image: url("./realeducation.png");
+    text-align: left;
+    
+
+}
+
+table{
+width: 600px;
+}
+
+td{
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+td{
+
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: left;
+}
+
+td:hover{
+
+    background-color:bisque;
+}
+
+table.Table1{
+
+    width: 600px;
+}
+td.Table1{
+    padding: 10px 10px ;
+    text-align: center;
+    
+}
+td.Table1{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: left;
+
+}
+
+ul.navlist{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li.navlist{
+    display: inline;
+    float: left;
+}
+
+a.navlist {
+    display: grid;
+    padding: 13px;
+    background-color:rgb(223, 163, 143);
+}
